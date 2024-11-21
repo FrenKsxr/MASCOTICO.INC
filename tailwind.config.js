@@ -1,16 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
-    extend: {
-      fontFamily: {
-        inter: ["Inter", "sans-serif"],
-      },
+    extend: {backgroundImage: {
+      'working-img': "url('/work-proceess.webp')",
     },
-    screens: {
-      // => @media (max-width: 1279px) { ... }
-      lg: { min: "925px" },
+      fontFamily: {
+        'primary': ["Poppins", "sans-serif"],
+        'secondary': ["Syne", "sans-serif"]
+      },
+      colors: {
+        'heroBg' :  "#ffffff",
+        'para':"rgb(0 0 0 / 80%)",
+        'primary': '#06a055'
+      }
     },
   },
   plugins: [],
-};
+}
+
