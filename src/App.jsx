@@ -7,15 +7,14 @@ import SignUp from './components/SingUp.jsx';
 import Main from './components/MobMenu.jsx'
 import './index.css';
 
-import Home from './page/home.jsx';
-import Footer from './page/home.jsx'
+import Home from './page/Home/home.jsx';
+
+import Contact from './page/contact/Contact.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
     <Home />
-
-
    
     {/* 
 
