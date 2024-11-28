@@ -10,11 +10,12 @@ import './index.css';
 import Home from './page/Home/home.jsx';
 
 import Contact from './page/contact/Contact.jsx';
+import Map from './page/Map/Map.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
-    <Home />
+    <Map />
    
     {/* 
 
